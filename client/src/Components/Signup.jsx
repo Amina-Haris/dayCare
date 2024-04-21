@@ -80,7 +80,7 @@ const handleCloseAlert = () => setShowAlert(false);
           <p>Account with this email already exists.</p>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant='secondary' onClick={handleCloseAlert}>
+          <Button variant='primary' onClick={handleCloseAlert}>
             Close
           </Button>
         </Modal.Footer>
